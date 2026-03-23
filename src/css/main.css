@@ -189,3 +189,29 @@ width: 974px;
     font-size: 14px;
  }
 }
+/* GAME MODES */
+.game-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 32px;
+}
+.game-item{
+        font-size: 16px;
+        line-height: 2;
+        color: #bac4d3;
+}
+.game-text{
+        font-size: 16px;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+}
+@media only screen and (min-width: 1440px) {
+ .game-list{
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 40px;
+ }
+}
