@@ -501,5 +501,27 @@ order: 11;
  .enemies-item-title{
     font-size: 24px;
  }
-
+}
+/* THE SILENT KILLER */
+.silent-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.silent-wrapper p{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        color: #7c899e;
+}
+@media only screen and (min-width: 1440px) {
+ .silent-wrapper{
+    flex-direction: row;
+    justify-content: center;
+ }
+ .silent-wrapper p{
+    width: 343px;
+ }
 }
