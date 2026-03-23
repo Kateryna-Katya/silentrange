@@ -525,3 +525,49 @@ order: 11;
     width: 343px;
  }
 }
+/* WHY PLAY SILENT KILLER */
+.why-subtitle{
+    font-family: "Azeret Mono", sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 1.5;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #7c899e;
+}
+.why-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+}
+.why-item{
+    border: 2px solid #2b373e;
+        border-radius: 2px;
+        padding: 16px 12px;
+        width: 168px;
+        height: 132px;
+        background: rgba(43, 55, 62, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        font-size: 12px;
+        color: #bac4d3;
+}
+@media only screen and (min-width: 1440px) {
+.why-subtitle{
+    font-size: 20px;
+        letter-spacing: 0.24em;
+}
+  .why-list{
+    gap: 24px;
+  }
+  .why-item{
+    padding: 24px 14px;
+        width: 170px;
+        height: 154px;
+font-size: 14px;
+  }
+}
