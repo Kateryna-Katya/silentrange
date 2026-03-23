@@ -687,3 +687,37 @@ width: 1062px;
 font-size: 14px;
     }
 }
+/* CONTACT */
+.contact-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.contact-text-wrapper{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        width: 313px;
+}
+.contact-link{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #bac4d3;
+}
+@media only screen and (min-width: 1440px) {
+.contact-wrapper{
+    flex-direction: row;
+    justify-content: center;
+    gap: 48px;
+}
+.contact-text-wrapper{
+    width: 490px;
+    font-size: 16px;
+    gap: 32px;
+    text-align: left;
+    align-items: start;
+}
+}
