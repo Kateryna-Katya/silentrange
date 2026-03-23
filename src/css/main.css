@@ -1,0 +1,138 @@
+.home-section{
+    background-image: url("/img/home/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.hero-title-wrap{
+    background: #030716;
+    border: 1px solid #fbbf24;
+border-radius: 4px;
+padding: 24px;
+width: 343px;
+height: 309px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 24px;
+}
+.home-title{
+    font-family: "American Typewriter", sans-serif;
+font-weight: 400;
+font-size: 32px;
+line-height: 1.1;
+letter-spacing: 0.08em;
+text-transform: uppercase;
+text-align: center;
+color: #fbbf24;
+padding-bottom: 32px;
+border-bottom: 1px solid #7c899e;
+}
+.home-subtitle{
+    margin-top: 32px;
+    font-family: "American Typewriter", sans-serif;
+font-weight: 400;
+font-size: 20px;
+letter-spacing: 0.24em;
+text-transform: uppercase;
+line-height: 1;
+text-align: center;
+color: #7c899e;
+}
+.home-text{
+    margin-top: 90px;
+    font-family: "Azeret Mono", sans-serif;
+font-weight: 200;
+font-size: 10px;
+line-height: 1.4;
+text-align: center;
+color: #bac4d3;
+}
+.home-text-two{
+    margin-top: 24px;
+    font-family: "American Typewriter", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.4;
+letter-spacing: 0.24em;
+text-transform: uppercase;
+text-align: center;
+color: #bac4d3;
+}
+.home-link{
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    box-shadow: 1px 2px 2px 0 #030716;
+background: #030716;
+border: 1px solid #fbbf24;
+border-radius: 2px;
+width: 240px;
+height: 72px;
+justify-content: center;
+align-items: center;
+transition: border 0.3s ease-in-out;
+}
+.home-link:hover{
+    border: 1px solid #4e6471;
+}
+.desk{
+    display: none;
+}
+@media only screen and (min-width: 1440px) {
+ .home-section{
+    background-image: url("/img/home/desk.png");
+ }
+ .hero-title-wrap{
+    margin-top: 48px;
+    padding: 80px;
+        width: 816px;
+        height: 420px;
+ }
+ .home-title{
+    font-size: 64px;
+ }
+ .home-subtitle{
+    font-size: 24px;
+ }
+ .home-text{
+    width: 816px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+    margin-top: 32px;
+ }
+ .desk{
+    display: block;
+ }
+ .home-text-two{
+    font-size: 16px;
+ }
+ .home-link{
+    margin-top: 24px;
+ }
+ .home-container{
+    padding-bottom: 80px;
+ }
+}
+/* BUILT FOR THE TRADE */
+.build-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+@media only screen and (min-width: 1440px) {
+ .mob{
+    display: none;
+ }
+ .build-wrapper{
+   flex-direction: row;
+   margin-left: auto;
+   margin-right: auto;
+width: 974px;
+ }
+  .build-wrapper p{
+    width: 343px;
+  }
+}

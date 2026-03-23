@@ -1,32 +1,67 @@
-:root {
-  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+@font-face {
+  font-family: 'AmericanTypewriter';
+  src: url('/fonts/american-typewriter.ttf') format('woff2');
   font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+  font-style: normal;
+  font-display: swap;
 }
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-width: 100vw;
-  min-height: 100vh;
-  margin: 0;
+body{
+background: #0d121e;
+  font-family: "Azeret Mono", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    color: #7c899e;
 }
-
-main {
-  flex-grow: 1;
+h2{
+  font-family: "American Typewriter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.16em;
+    color: #fbbf24;
 }
-main:has(.back-link) {
+h3{
+font-family: "American Typewriter", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 1.1;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
   text-align: center;
+  color: #bac4d3;
+  margin-bottom: 24px;
+}
+.title-container{
+background: #030716;
+padding: 48px 16px 24px;
+  height: 88px;
+}
+h4{
+  font-family: "Azeret Mono", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #7c899e;
+    margin-bottom: 32px;
+}
+@media only screen and (min-width: 1440px) {
+  body{
+    font-size: 16px;
+  }
+  h3{
+font-size: 48px;
+margin-bottom: 32px;
+  }
+  h4{
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+    .title-container {
+padding: 64px 80px 24px;
+height: 104px;
+    }
 }
