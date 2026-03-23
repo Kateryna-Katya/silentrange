@@ -721,3 +721,24 @@ font-size: 14px;
     align-items: start;
 }
 }
+/* PLAY NOW */
+.play-section{
+    background-image: url("/img/play/mob.png");
+background-repeat: no-repeat;
+background-position: bottom center;
+background-size: cover;
+height: 560px;
+}
+.play-text{
+    font-size: 11px;
+    margin-top: 24px;
+}
+@media only screen and (min-width: 1440px) {
+.play-section {
+        background-image: url("/img/play/desk.png");
+        height: 561px;
+    }
+.play-text{
+    font-size: 16px;
+}
+}
