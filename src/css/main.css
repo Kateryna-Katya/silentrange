@@ -136,3 +136,56 @@ width: 974px;
     width: 343px;
   }
 }
+/* CORE GAMEPLAY LOOP */
+.core-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.core-item{
+    border: 2px solid #2b373e;
+        border-radius: 2px;
+        padding: 24px;
+        width: 343px;
+        height: 111px;
+        background: rgba(43, 55, 62, 0.5);
+        display: flex;
+        align-items: center;
+        gap: 16px;
+}
+.core-number{
+    border: 1px solid #fbbf24;
+        border-radius: 999px;
+        width: 48px;
+        height: 48px;
+    background: #030716;
+    font-family: "American Typewriter", sans-serif;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 1.5;
+        text-align: center;
+        color: #fbbf24;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.core-item-text{
+    width: 231px;
+    color: #bac4d3;
+}
+@media only screen and (min-width: 1440px) {
+ .core-list{
+    flex-direction: row;
+    gap: 24px;
+ }
+ .core-item{
+    flex-direction: column;
+    padding: 24px;
+        width: 200px;
+        height: 196px;
+ }
+ .core-item-text{
+    width: 152px;
+    font-size: 14px;
+ }
+}
