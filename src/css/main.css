@@ -215,3 +215,217 @@ width: 974px;
     margin-bottom: 40px;
  }
 }
+/* WEAPONS & POWER-UPS */
+
+.weapons-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+.weapons-text{
+    border: 1px solid #4e6471;
+        border-radius: 2px;
+        padding: 16px 12px;
+        width: 171px;
+        height: 100px;
+        background: #030716;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            font-size: 14px;
+            color: #bac4d3;
+}
+.weapons-img{
+        width: 171px;
+            height: 100px;
+                    display: flex;
+                        justify-content: center;
+                        align-items: center;
+}
+.l23{
+    display: none;
+}
+.l1{
+    order: 1;
+}
+.l2{
+    order: 2;
+}
+.l3{
+    order: 4;
+}
+.l4{
+    order: 3;
+}
+.l5{
+    order: 5;
+}
+.l6{
+    order: 6;
+}
+.l7{
+order: 8;
+}
+.l8{
+    order: 7;
+}
+.l9{
+    order: 9;
+}
+.l10{
+    order: 10;
+}
+.l11{
+    order: 12;
+}
+.l12{
+order: 11;
+}
+.l13 {
+    order: 13;
+}
+.l14 {
+    order: 14;
+}
+.l15 {
+    order: 16;
+}
+.l16 {
+    order: 15;
+}
+.l17 {
+    order: 17;
+}
+.l18 {
+    order: 18;
+}
+.l19 {
+    order: 20;
+}
+.l20 {
+    order: 19;
+}
+.l21 {
+    order: 21;
+}
+.l22 {
+    order: 22;
+}
+.l24 {
+    order: 24;
+}
+.l25 {
+    order: 23;
+}
+@media only screen and (min-width: 1440px) {
+    .weapons-list{
+        gap: 10px;
+        justify-content: center;
+    }
+    .weapons-text{
+        width: 189px;
+        height: 100px;
+    }
+    .weapons-img{
+            width: 189px;
+                height: 100px;
+    }
+.l1 {
+        order: 1;
+    }
+
+    .l2 {
+        order: 2;
+    }
+
+    .l3 {
+        order: 3;
+    }
+
+    .l4 {
+        order: 4;
+    }
+
+    .l5 {
+        order: 5;
+    }
+
+    .l6 {
+        order: 6;
+    }
+
+    .l7 {
+        order: 7;
+    }
+
+    .l8 {
+        order: 8;
+    }
+
+    .l9 {
+        order: 9;
+    }
+
+    .l10 {
+        order: 10;
+    }
+
+    .l11 {
+        order: 11;
+    }
+
+    .l12 {
+        order: 12;
+    }
+
+    .l13 {
+        order: 13;
+    }
+
+    .l14 {
+        order: 14;
+    }
+
+    .l15 {
+        order: 15;
+    }
+
+    .l16 {
+        order: 16;
+    }
+
+    .l17 {
+        order: 17;
+    }
+
+    .l18 {
+        order: 18;
+    }
+
+    .l19 {
+        order: 19;
+    }
+
+    .l20 {
+        order: 20;
+    }
+
+    .l21 {
+        order: 21;
+    }
+
+    .l22 {
+        order: 22;
+    }
+.l23
+{
+    display: flex;
+    order: 23;
+}
+    .l24 {
+        order: 25;
+    }
+
+    .l25 {
+    order: 24;
+    }
+}
